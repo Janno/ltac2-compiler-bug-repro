@@ -1,0 +1,6 @@
+(include_subdirs qualified)
+(coq.theory
+ (name bedrock)
+ (package repro)
+ (theories Ltac2 Ltac2Compiler)
+ (plugins repro.plugin))
